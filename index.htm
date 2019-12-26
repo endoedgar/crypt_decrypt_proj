@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Restricted area</title>
+    <script type="text/javascript" src="bundle.js"></script>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Restricted area</h1>
+    <fieldset id="passwordDiv">
+        <legend>Security</legend>
+        Password: <input type="password" id="password" value="" />
+        <button id="unlockBtn">Unlock</button>
+    </fieldset>
+    
+    <div id="okDiv" style="display: none;">
+        <ol id="fileList">
+        </ol>
+    </div>
+
+    <div id="bottomDiv" data-role="footer" data-position="fixed"><div id="statusDiv"></div></div>
+</body>
+</html>
